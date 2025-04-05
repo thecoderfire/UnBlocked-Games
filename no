@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unblocked Games</title>
+  <style>
+    body { font-family: Arial; background: #111; color: #fff; text-align: center; }
+    a { color: #00f; text-decoration: none; display: block; margin: 10px 0; }
+    iframe { border: none; width: 800px; height: 600px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>🔥 Unblocked Games 🔥</h1>
+  <p>Click a game below to play:</p>
+  <div id="menu">
+    <a href="#" onclick="loadGame('games/1v1lol/index.html')">1v1.lol</a>
+    <a href="#" onclick="loadGame('games/run3/index.html')">Run 3</a>
+    <a href="#" onclick="loadGame('games/retro-bowl/index.html')">Retro Bowl</a>
+  </div>
+  <iframe id="gameFrame"></iframe>
+
+  <script>
+    function loadGame(url) {
+      document.getElementById('gameFrame').src = url;
+    }
+  </script>
+</body>
+</html>
